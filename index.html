@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CyberVanguard — cybersecurity awareness, threat intelligence, and security engineering projects.">
+  <title>CyberVanguard | Cybersecurity & AI</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: #08111f;
+      color: #e8eef8;
+      line-height: 1.6;
+    }
+    header, main, footer {
+      width: min(1080px, 90%);
+      margin: auto;
+    }
+    header {
+      padding: 26px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand { font-size: 1.25rem; font-weight: 800; }
+    .brand span { color: #45dfc0; }
+    a { color: #45dfc0; text-decoration: none; }
+    .hero { padding: 100px 0 75px; }
+    .eyebrow { color: #45dfc0; letter-spacing: 2px; }
+    h1 {
+      max-width: 800px;
+      font-size: clamp(2.7rem, 7vw, 5rem);
+      line-height: 1.08;
+      margin: 18px 0;
+    }
+    .intro { max-width: 650px; color: #aab8cc; font-size: 1.15rem; }
+    .button {
+      display: inline-block;
+      margin: 18px 12px 0 0;
+      padding: 12px 20px;
+      border: 1px solid #45dfc0;
+      border-radius: 8px;
+      font-weight: 700;
+    }
+    .primary { background: #45dfc0; color: #08111f; }
+    section { padding: 35px 0; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #101d30;
+      border: 1px solid #23344b;
+      padding: 24px;
+      border-radius: 12px;
+    }
+    .card p { color: #aab8cc; }
+    footer {
+      margin-top: 60px;
+      padding: 25px 0;
+      border-top: 1px solid #23344b;
+      color: #aab8cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Cyber<span>Vanguard</span></div>
+    <a href="mailto:contact@cybervanguard.me">Contact</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">CYBERSECURITY · AI · DEFENSE</div>
+      <h1>Understand threats.<br>Build stronger defenses.</h1>
+      <p class="intro">
+        CyberVanguard is a cybersecurity project brand exploring
+        security awareness, phishing simulations, threat detection,
+        and practical security engineering.
+      </p>
+      <a class="button primary"
+         href="https://github.com/sudhakar4103/PhishAware">
+        Explore PhishAware
+      </a>
+      <a class="button"
+         href="https://github.com/sudhakar4103">
+        GitHub Profile
+      </a>
+    </section>
+
+    <section>
+      <h2>What we're building</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>PhishAware</h3>
+          <p>A phishing-awareness and campaign-management
+          application designed for authorized security training.</p>
+          <a href="https://github.com/sudhakar4103/PhishAware">
+            View project →
+          </a>
+        </article>
+        <article class="card">
+          <h3>Security Engineering</h3>
+          <p>Practical experiments in application security,
+          automation, and defensive tooling.</p>
+        </article>
+        <article class="card">
+          <h3>AI & Threat Analysis</h3>
+          <p>Exploring ways AI can support security analysis,
+          awareness, and threat investigation.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 CyberVanguard · Built for security and awareness.
+  </footer>
+</body>
+</html>
